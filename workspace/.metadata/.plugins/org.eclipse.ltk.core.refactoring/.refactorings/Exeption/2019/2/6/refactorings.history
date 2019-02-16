@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;exceptionhandliong.ExceptionDay3&apos; to &apos;Furniture&apos;&#x0A;- Original project: &apos;Exeption&apos;&#x0A;- Original element: &apos;exceptionhandliong.ExceptionDay3&apos;&#x0A;- Renamed element: &apos;exceptionhandliong.Furniture&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ExceptionDay3&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;exceptionhandliong{ExceptionDay3.java[ExceptionDay3" matchStrategy="1" name="Furniture" qualified="false" references="true" similarDeclarations="false" stamp="1549731199803" textual="false" version="1.0"/>
+</session>

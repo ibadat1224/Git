@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;mypakcage.StaticReview&apos; to &apos;Rocket&apos;&#x0A;- Original project: &apos;StaticProject&apos;&#x0A;- Original element: &apos;mypakcage.StaticReview&apos;&#x0A;- Renamed element: &apos;mypakcage.Rocket&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;StaticReview&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;mypakcage{StaticReview.java[StaticReview" matchStrategy="1" name="Rocket" qualified="false" references="true" similarDeclarations="false" stamp="1546967021810" textual="false" version="1.0"/>
+</session>

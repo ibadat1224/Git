@@ -1,0 +1,10 @@
+package sortedmap;
+
+public class IntegerX {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

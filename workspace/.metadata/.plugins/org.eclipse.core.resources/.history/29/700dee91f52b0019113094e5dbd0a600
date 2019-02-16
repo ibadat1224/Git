@@ -1,0 +1,29 @@
+package exeption;
+
+public class MultiCatch {
+
+	public static void main(String[] args) {
+
+		System.out.println("Beginning...");
+
+		int[] arr = new int[4];
+		int i = 0;
+
+		try {
+			System.out.println(arr[3]);
+			System.out.println(6 / 0);
+
+		} catch (ArithmeticException e) {
+
+			System.out.println("indexx 3 item value of array" + arr[3]);
+			System.out.println(6 / ++i);
+
+		} catch (ArrayIndexOutOfBoundsException e) {
+			System.out.println("Array index out of bound");
+		}
+
+		System.out.println("Done");
+
+	}
+
+}

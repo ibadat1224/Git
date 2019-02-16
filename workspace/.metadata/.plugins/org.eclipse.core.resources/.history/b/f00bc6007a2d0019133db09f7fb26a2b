@@ -1,0 +1,19 @@
+package set;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class MapsClass {
+
+	public static void main(String[] args) {
+
+		Map<String,Integer> phoneNumbers = new HashMap<>();
+		
+		phoneNumbers.put("Esen",  4125);
+		phoneNumbers.put("sn", 4125);
+		System.out.println("ending");
+		System.out.println("Esen");
+
+	}
+
+}

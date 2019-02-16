@@ -1,0 +1,23 @@
+package lastdaypackage;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class CollectionClass {
+
+	public static void main(String[] args) {
+
+		Scanner scan = new Scanner(System.in);
+		List<String> names = new ArrayList<>();
+		while (scan.hasNext()) {
+			names.add(scan.next());
+			if (scan.next().equals("quit"))
+				break;
+
+		}
+		System.out.println("original list: " + names);
+
+	}
+
+}

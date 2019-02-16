@@ -1,0 +1,24 @@
+package utilities;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
+
+public class DataStorage {
+	Map<String, String> data = new HashMap<>();
+
+	public static void main(String[] args) {
+		Map<String, String> data = new HashMap<>();
+
+		data.put("Ibadat", "Meder");
+		data.put("Sumaya", "Bakay");
+		System.out.println(data);
+	}
+
+	public void addData() {
+		Set<String> keys = data.keySet();
+		for (String key : keys) {
+			System.out.println(keys);
+		}
+	}
+}

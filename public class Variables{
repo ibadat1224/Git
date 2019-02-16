@@ -1,0 +1,15 @@
+public class Variables{
+	public static void main (String[]arg){
+	String firstName, lastName, job;
+	firstName="Adam";
+	job="SDET";
+	System.out.println(frstName+"is a"+job);
+	int salary=5000;
+	system.out.println(slary);
+	//Adam makes 5000
+	System.out.println(firstName+"makes+salary");
+	}
+
+	}
+}
+}

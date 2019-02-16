@@ -1,0 +1,36 @@
+package collectionframework;
+
+import java.util.SortedSet;
+import java.util.TreeSet;
+
+public class SortedSetPractice {
+
+	public static void main(String[] args) {
+
+		SortedSet<Integer> sSet = new TreeSet<>();
+		sSet.add(123);
+		sSet.add(132);
+		sSet.add(113);
+		sSet.add(13);
+
+		// System.out.println(sSet);
+		// System.out.println(sSet.first());
+		// System.out.println(sSet.last());
+		//
+		// System.out.println(sSet.tailSet(113));
+		// System.out.println(sSet.subSet(113, 132));
+		// System.out.println(sSet.headSet(113));
+
+		SortedSet<String> srt = new TreeSet<>();
+		srt.add("peach");
+		srt.add("apple");
+		srt.add("banana");
+
+		System.out.println(srt);
+		System.out.println(srt.first());
+		System.out.println(srt.last());
+		System.out.println(srt.tailSet("apple"));
+		System.out.println(srt.subSet("apple", "peach"));
+	}
+
+}

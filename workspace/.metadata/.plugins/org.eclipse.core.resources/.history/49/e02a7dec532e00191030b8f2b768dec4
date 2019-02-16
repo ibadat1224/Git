@@ -1,0 +1,27 @@
+package lastdaypackage;
+
+import java.util.Comparator;
+import java.util.TreeSet;
+
+public class TreeSetPractice {
+
+	public static void main(String[] args) {
+
+		Comparator<String> lastC = new LastCharComparator();
+		TreeSet<String> sTree = new TreeSet<>(lastC);
+		Comparator<String> secC = Comparator.comparing(str -> str.charAt(1));
+
+		TreeSet<String> sTree1= new TreeSet<>();
+		
+		
+		sTree1.add("Adam");
+
+		sTree1.add("Zod");
+		sTree1.add("Batman");
+		sTree1.add("Zod");
+		sTree1.add("Supermen");
+		System.out.println(sTree1);
+
+	}
+
+}

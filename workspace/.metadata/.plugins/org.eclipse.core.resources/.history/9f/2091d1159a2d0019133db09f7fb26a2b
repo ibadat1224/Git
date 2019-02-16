@@ -1,0 +1,33 @@
+package collection;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+public class MapDay {
+
+	public static void main(String[] args) {
+
+		List<Long> prices = new ArrayList<>();
+
+		prices.add(12L);
+		prices.add(15L);
+		prices.add(11L);
+		prices.add(12L);
+		prices.add(12L);
+		prices.add(15L);
+		prices.add(10L);
+		prices.add(1L);
+		prices.add(16L);
+		
+		System.out.println(prices);
+Set<Long> longSet =new HashSet<>();
+
+System.out.println(prices);
+		
+		
+	}
+
+}

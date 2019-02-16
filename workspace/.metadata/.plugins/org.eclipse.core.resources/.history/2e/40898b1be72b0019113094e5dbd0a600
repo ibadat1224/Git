@@ -1,0 +1,17 @@
+package exeption;
+
+public class DangerZone {
+
+	public static void main(String[] args) {
+
+		System.out.println("beginning");
+		int i = 8;
+		int j = 0;
+		System.out.println(i / j);
+
+		int[]arr = new int[4];
+		System.out.println(arr[4]);
+		System.out.println("end of exxeption");
+	}
+
+}

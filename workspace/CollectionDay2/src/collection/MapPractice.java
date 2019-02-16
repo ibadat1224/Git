@@ -1,0 +1,72 @@
+package collection;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class MapPractice {
+
+	public static void main(String[] args) {
+		Map<Integer, String> map = new HashMap<>();
+
+		// adding items to map using the 'put' keyword
+		map.put(1, "Soccer");
+		map.put(2, "Basketball");
+		map.put(3, "Pingpong");
+		System.out.println(map);
+
+		// getting item by key .get(key);
+		// System.out.println(map.get(2));
+		// System.out.println(map.get(12));
+
+		// cheking a key exist in a map
+		// System.out.println("map.containsKey(soccer)" +
+		// map.containsKey("Soccer"));
+
+		// countin g the map items in map object
+		// System.out.println("counting map ietms " + map.size());
+
+		// cheking is empty or not
+		// System.out.println(map.isEmpty());
+
+		// System.out.println(map.remove(2));
+		// System.out.println(map);
+
+		// replace a map value using key
+
+		map.replace(1, "Valleyball");
+		System.out.println(map);
+
+		map.replace(1, "Valleyball", "Football");
+		System.out.println(map);
+
+		map.replace(17, "abc");
+
+		// get an item and if key doesnot return default value!!!!!
+		String def = map.getOrDefault(17, "Baseball");
+		String def2 = map.getOrDefault(3, "Baseball1234");
+
+		System.out.println(def + " --- " + def2);
+
+		System.out.println(map);
+
+		// adding an item while chckine the key exist or not
+
+		if (!map.containsKey(3))
+			map.put(3, "something else");
+		map.putIfAbsent(4, "watermelon");
+
+		System.out.println(map);
+
+		Map<Double, String> map1 = new HashMap<>();
+
+		map1.put(1.1, "Soccer");
+		map1.put(2.2, "Basketball");
+		map1.put(3.3, "Pingpong");
+		map1.put(1.1, "Duplicate");
+		map1.put(2.5, "Baseball");
+		map1.put(3.6, "Hockey");
+		System.out.println(map1);
+
+	}
+
+}

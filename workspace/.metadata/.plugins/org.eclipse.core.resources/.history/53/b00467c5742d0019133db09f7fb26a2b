@@ -1,0 +1,27 @@
+package set;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class Task {
+
+	static Set<String> str = new HashSet<>();
+
+	public static void main(String[] args) {
+
+		Set<String> str = new HashSet<>();
+
+		str.add("BMW");
+		str.add("Mers");
+		str.add("Lexus");
+		str.add("Tayota");
+	}
+
+	public static void addValue(String str) {
+
+		if (str.contains(str)) {
+			System.out.println("Name: " + str + "Already exist in the set");
+		}
+	}
+
+}

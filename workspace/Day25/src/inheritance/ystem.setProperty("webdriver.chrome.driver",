@@ -1,0 +1,2 @@
+ystem.setProperty("webdriver.chrome.driver",
+				"/Users/ibadatabdilazhankyzy/Documents/Libraries/drivers/chromedriver");

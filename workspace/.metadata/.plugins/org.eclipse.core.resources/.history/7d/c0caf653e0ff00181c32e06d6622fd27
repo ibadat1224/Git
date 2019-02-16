@@ -1,0 +1,14 @@
+package stringbuilder;
+
+public class WarmUp {
+
+	public static void main(String[] args) {
+		String str=new String();
+		str="ABCDJIH24A53KD23BCHH451HJ";
+		
+		
+		
+		
+	}
+
+}

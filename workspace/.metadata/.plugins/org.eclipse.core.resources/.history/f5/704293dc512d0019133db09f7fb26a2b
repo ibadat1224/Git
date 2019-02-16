@@ -1,0 +1,24 @@
+package collectionframework;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class SetPractice {
+
+	public static void main(String[] args) {
+
+		Set<Integer> numSets = new HashSet<>();
+
+		HashSet<Integer> numSets2 = new HashSet<>();
+		numSets.add(123);
+		numSets.add(143);
+		numSets.add(133);
+		numSets.add(124);
+		numSets.add(123);
+	
+		numSets.size();
+		System.out.println(numSets);
+
+	}
+
+}

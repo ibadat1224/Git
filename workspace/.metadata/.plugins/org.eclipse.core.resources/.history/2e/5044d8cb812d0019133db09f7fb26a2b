@@ -1,0 +1,19 @@
+package set;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class DataStorage {
+
+	public static void main(String[] args) {
+		Map<String, String> name = new HashMap<>();
+
+		name.put("Ibadat", "Meder");
+		name.put("Sumaya", "Bakay");
+		System.out.println(name);
+	}
+
+	public void addData() {
+
+	}
+}

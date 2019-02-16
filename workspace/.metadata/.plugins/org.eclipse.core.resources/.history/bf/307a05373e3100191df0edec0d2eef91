@@ -1,0 +1,20 @@
+package com.cbt;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class BasicAuthenticationTest {
+
+	public static void main(String[] args) throws InterruptedException {
+		System.setProperty("webdriver.gecko.driver",
+				"/Users/ibadatabdilazhankyzy/Documents/selenium dependencies/driver/geckodriver");
+		WebDriver driver = new ChromeDriver();
+
+		driver.navigate().to("http://newtours.demoaut.com");
+	
+
+		
+	}
+
+}

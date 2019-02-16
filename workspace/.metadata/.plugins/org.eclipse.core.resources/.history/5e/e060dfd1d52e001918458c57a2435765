@@ -1,0 +1,18 @@
+package practice;
+
+interface Movable {
+
+	void move(int distance);
+
+//	public static void main(String[] args) {
+
+		Movable m1 = new Movable() {
+			@Override
+			public void move(int distance) {
+				System.out.println("moving " + distance + " mile");
+			}
+
+		};
+//	}
+
+}

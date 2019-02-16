@@ -1,0 +1,40 @@
+package sortedmap;
+
+import java.util.HashMap;
+import java.util.Map.Entry;
+import java.util.SortedMap;
+import java.util.TreeMap;
+
+public class SortedMapPractice {
+
+	public static void main(String[] args) {
+		
+		//	SortedMap<Integer,String> cityMap = new TreeMap<>();
+		
+		HashMap<Integer,String> cityMap= new HashMap<>();
+		cityMap.put(15202, "Fairfax");
+		cityMap.put(20876, "Arlington");
+		cityMap.put(30987, "Crafton");
+		cityMap.put(62276, "Oakland");
+		cityMap.put(56543, "Robinson");
+		
+	//Map is not Iterable
+	//We need to get Collection view
+	//map.keySet()  map.values()  map.entrySet()	
+		
+		for(Integer key : cityMap.keySet()){
+			System.out.println("Map key: " +key);
+		}
+		
+		for(String each : cityMap.values()){
+			System.out.println("Map value: " + each);
+		}
+		
+		for(Entry<Integer,String>eachEntry : cityMap.entrySet()){
+			System.out.println(eachEntry.getKey() + "--" + eachEntry.getValue());
+		}
+		
+		
+	}
+
+}

@@ -1,0 +1,18 @@
+package com.cbt;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class AnotherTest2 {
+
+	public static void main(String[] args) throws InterruptedException {
+		System.setProperty("webdriver.gecko.driver",
+				"/Users/ibadatabdilazhankyzy/Documents/selenium dependencies/driver/geckodriver");
+		WebDriver driver = new FirefoxDriver();
+
+		driver.navigate().to("http://www.cybertekschool.com");
+Thread.sleep(2000);
+driver.close();
+	}
+
+}

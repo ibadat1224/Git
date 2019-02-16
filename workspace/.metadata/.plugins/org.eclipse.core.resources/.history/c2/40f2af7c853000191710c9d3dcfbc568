@@ -1,0 +1,17 @@
+package selenium;
+import org.openqa.selenium.Webdriver;
+import org.openqa.selenium.chrome.Chromedriver;
+public class GoogleTest {
+
+	public static void main(String[] args) {
+		// 1.open chrome
+
+		System.setProperty("webdriver.chrome.driver",
+				" /Users/ibadatabdilazhankyzy/Documents/Libraries/Drivers/chromedriver ");
+		WebDriver driver = new ChromeDriver();
+
+		// /Users/ibadatabdilazhankyzy/Documents/Libraries/Drivers/chromedriver
+
+	}
+
+}

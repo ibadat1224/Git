@@ -1,0 +1,29 @@
+package exeption;
+
+public class DangerZone {
+
+	public static void main(String[] args) {
+
+		System.out.println("beginning");
+		int i = 5;
+		int j = 0;
+
+		Object o = new Object();
+
+		try {
+
+			System.out.println(i / j);
+
+			String s = (String) o;
+
+		} catch (Exception e) {
+
+			System.out.println(e.getMessage());
+			System.out.println(" Exeption caught");
+		}
+
+		System.out.println("End of devide");
+
+	}
+
+}

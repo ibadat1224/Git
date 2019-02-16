@@ -1,0 +1,17 @@
+package set;
+
+import java.util.HashMap;
+
+public class Map {
+
+	public static void main(String[] args) {
+
+		Map<String,Integer> phoneNumbers = new HashMap<>();
+		phoneNumbers.put("Esen"," 412-506-0888");
+
+		System.out.println("ending");
+		System.out.println("Esen");
+
+	}
+
+}

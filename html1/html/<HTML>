@@ -1,0 +1,19 @@
+<HTML>
+<head>
+
+       <title>CybertekSchool</title>
+</head>
+
+<body>
+      <p> This is a pharagraph</p>Line after paragraph
+
+     <h1>Hello, Welcome to CybertekSchool</h1>   
+ <h1>Hello, Welcome to CybertekSchool</h1> 
+ <h2>Hello, Welcome to CybertekSchool</h2> 
+ <h3>Hello, Welcome to CybertekSchool</h3> 
+ <h4>Hello, Welcome to CybertekSchool</h5> 
+ <h5>Hello, Welcome to CybertekSchool</h5> 
+ <h6>Hello, Welcome to CybertekSchool</h6> 
+</body>
+
+</html>

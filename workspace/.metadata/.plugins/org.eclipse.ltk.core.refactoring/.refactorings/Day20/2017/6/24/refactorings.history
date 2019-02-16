@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;arraylist.ArrayLists&apos; to &apos;MyArrayList&apos;&#x0A;- Original project: &apos;Day20&apos;&#x0A;- Original element: &apos;arraylist.ArrayLists&apos;&#x0A;- Renamed element: &apos;arraylist.MyArrayList&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ArrayLists&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;arraylist{ArrayLists.java[ArrayLists" matchStrategy="1" name="MyArrayList" qualified="false" references="true" similarDeclarations="false" stamp="1497327033065" textual="false" version="1.0"/>
+</session>

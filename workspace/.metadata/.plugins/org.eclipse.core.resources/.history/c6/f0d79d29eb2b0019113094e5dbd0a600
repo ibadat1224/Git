@@ -1,0 +1,12 @@
+package exeption;
+
+public class Another {
+
+	public static void main(String[] args) {
+		int i = 10;
+		if (i > 6) {
+			System.out.println("printing...");
+		}
+	}
+
+}

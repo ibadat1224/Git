@@ -1,0 +1,19 @@
+package readingfiles;
+
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class ReadingTexxtFileOldWay {
+
+	public static void main(String[] args) throws FileNotFoundException, IOException {
+
+		FileReader fr = new FileReader("Numbers.txt");
+		BufferedReader br = new BufferedReader(fr);
+
+		System.out.println(br.readLine());
+		System.out.println(br.readLine());
+	}
+
+}

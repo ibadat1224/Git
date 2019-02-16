@@ -1,0 +1,42 @@
+package readingfiles;
+
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+public class ReadFileDataIntoAList {
+
+	static List<Integer>  nums= new ArrayList<>();
+	
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+
+		try (FileReader fr = new FileReader("Numbers.txt"); BufferedReader br = new BufferedReader(fr);)
+
+		{
+
+			String line = null;
+
+			while ((line = br.readLine()) != null) {
+				nums.add(Integer.valueOf(line));
+				System.out.println(line);
+
+			}
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+
+		} catch (IOException e) {
+			e.printStackTrace();
+
+		}
+System.out.println(nums.size());
+	}
+
+}

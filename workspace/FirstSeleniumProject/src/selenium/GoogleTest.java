@@ -1,0 +1,13 @@
+package selenium;
+
+public class GoogleTest {
+
+	public static void main(String[] args) {
+
+		System.setProperty("webdriver.chrome.driver",
+				" /Users/ibadatabdilazhankyzy/Documents/Libraries/Drivers/chromedriver ");
+		WebDriver driver = new ChromeDriver();
+
+	}
+
+}

@@ -1,0 +1,19 @@
+package lastdaypackage;
+
+import java.util.TreeSet;
+
+public class TreeSetPractice {
+
+	public static void main(String[] args) {
+		
+TreeSet<String> sTree= new TreeSet<>();
+sTree.add("Adam");
+
+sTree.add("Zod");
+sTree.add("Batman");
+sTree.add("Zod");
+sTree.add("Supermen");
+System.out.println(sTree);
+	}
+
+}

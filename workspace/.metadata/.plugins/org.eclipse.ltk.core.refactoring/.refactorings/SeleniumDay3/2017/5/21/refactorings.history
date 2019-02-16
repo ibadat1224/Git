@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;seleniumhqtests.SeleniumHqtest&apos; to &apos;VerifyDisplayed&apos;&#x0A;- Original project: &apos;SeleniumDay3&apos;&#x0A;- Original element: &apos;seleniumhqtests.SeleniumHqtest&apos;&#x0A;- Renamed element: &apos;seleniumhqtests.VerifyDisplayed&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;SeleniumHqtest&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;seleniumhqtests{SeleniumHqtest.java[SeleniumHqtest" matchStrategy="1" name="VerifyDisplayed" qualified="false" references="true" similarDeclarations="false" stamp="1495506545862" textual="false" version="1.0"/>
+</session>

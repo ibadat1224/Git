@@ -1,0 +1,22 @@
+package trycatch;
+
+public class TryCatch3 {
+
+	public static void main(String[] args) {
+
+		System.out.println("begining");
+
+		try {
+			throw new RuntimeException();
+
+		} catch (Throwable e) {
+
+			System.out.println("I caught an exception");
+
+		} finally {
+			System.out.println("finally");
+			throw new NullPointerException();
+		}
+	}
+
+}

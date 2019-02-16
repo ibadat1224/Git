@@ -1,0 +1,18 @@
+package conditional;
+
+public class ReviewClass {
+
+	public static void main(String[] args) {
+		int age = 12-18;
+		if (age > 18) {
+			System.out.println("teenager");
+         int age=6-12;
+         if(age>18);
+         System.out.println("child");
+         
+		} else {
+			System.out.println("not at school age");
+		}
+	}
+
+}

@@ -1,0 +1,12 @@
+package exeption;
+
+public class DangerZone {
+
+	public static void main(String[] args) {
+		int i =8;
+		int j =10;
+		System.out.println(i/j);
+
+	}
+
+}

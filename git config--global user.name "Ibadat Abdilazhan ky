@@ -1,0 +1,3 @@
+git config--global user.name "Ibadat Abdilazhan kyzy"
+git config--global user.email ibadat1224@gmail.com
+git config-- global color.ui true

@@ -1,0 +1,3 @@
+String country="United States of America";
+country.toupperCase();
+int charCount=country.length();

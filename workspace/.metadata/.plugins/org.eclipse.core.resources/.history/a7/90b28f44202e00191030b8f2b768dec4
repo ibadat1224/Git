@@ -1,0 +1,46 @@
+package collection;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class MapPractice {
+
+	public static void main(String[] args) {
+		Map<Integer, String> map = new HashMap<>();
+
+		// adding items to map using the 'put' keyword
+		map.put(1, "Soccer");
+		map.put(2, "Basketball");
+		map.put(3, "Pingpong");
+		System.out.println(map);
+
+		// getting item by key .get(key);
+		System.out.println(map.get(2));
+		System.out.println(map.get(12));
+
+		// cheking a key exist in a map
+		System.out.println("map.containsKey(soccer)" + map.containsKey("Soccer"));
+
+		// countin g the map items in map object
+		System.out.println("counting map ietms " + map.size());
+
+		// cheking is empty or not
+		System.out.println(map.isEmpty());
+
+		map.remove(2);
+		map.replace(2, "Valleyball");
+		System.out.println(map);
+
+		Map<Double, String> map1 = new HashMap<>();
+
+		map1.put(1.1, "Soccer");
+		map1.put(2.2, "Basketball");
+		map1.put(3.3, "Pingpong");
+		map1.put(1.1, "Duplicate");
+		map1.put(2.5, "Baseball");
+		map1.put(3.6, "Hockey");
+		// System.out.println(map1);
+
+	}
+
+}

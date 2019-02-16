@@ -1,0 +1,28 @@
+package collection;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.List;
+
+public class MapDay {
+
+	public static void main(String[] args) {
+		
+		List<Long> prices =new ArrayList<>();
+
+		prices.add(12L) ;
+		prices.add(15L) ;
+		prices.add(11L) ;
+		prices.add(12L) ;
+		prices.add(12L) ;
+		prices.add(15L) ;
+		prices.add(10L) ;
+		prices.add(1L) ;
+		prices.add(16L) ;
+		
+Collections.sort(prices);
+System.out.println(prices);
+	}
+
+}

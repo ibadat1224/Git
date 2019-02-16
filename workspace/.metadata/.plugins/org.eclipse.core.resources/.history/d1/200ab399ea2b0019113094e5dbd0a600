@@ -1,0 +1,32 @@
+package exeption;
+
+public class DangerZone {
+
+	public static void main(String[] args) {
+
+		System.out.println("beginning");
+		int i = 5;
+		int j = 0;
+		// System.out.println(i / j);
+
+		int[] arr = new int[4];
+		// System.out.println(arr[3]);
+
+		try {
+			System.out.println(arr[4]);
+			// System.out.println(arr[4]);
+
+		} catch (ArrayIndexOutOfBoundsException e) {
+
+			System.out.println(" Out of Bound");
+		}
+
+		//
+		// Object o = new Object();
+		// String s =(String)o;
+
+		System.out.println("end of exxeption");
+
+	}
+
+}

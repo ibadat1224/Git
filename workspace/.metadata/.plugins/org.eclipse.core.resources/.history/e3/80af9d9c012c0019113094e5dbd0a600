@@ -1,0 +1,12 @@
+package exeption;
+
+public class Fire {
+
+	public static void main(String[] args) {
+	
+
+	}
+public static void playWithFire(){
+	System.out.println("Do something dangerous");
+}
+}
